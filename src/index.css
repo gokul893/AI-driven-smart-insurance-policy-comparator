@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-gray: var(--color-gray-800);
+  --color-brand-yellow: var(--color-yellow-600);
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-gray-50);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: var(--color-gray-800);
+}
